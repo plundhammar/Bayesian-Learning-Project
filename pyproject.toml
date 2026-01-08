@@ -1,0 +1,16 @@
+[project]
+name = "Bayesian_Learning_Project"
+version = "1.0"
+description = ""
+authors = ["Per Lundhammar"]
+dependencies = [
+  "numpy",
+  "pandas>=2.2.0",
+  "scikit-learn>=1.4",
+  "ipykernel",
+  "jupyter",
+  "matplotlib",
+]
+
+[tool.uv]
+sync = true
